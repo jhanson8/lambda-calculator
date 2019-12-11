@@ -1,22 +1,70 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #c00025;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
 }
+
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+  margin-top: 25px;
+  height: 100px;
+  width: 450px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 8%;
+  font-size: 5.0rem;
+}
+
+img.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.displayDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.specialsDiv {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.operatorsDiv {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.numbersDiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+button {
+  color: white;
+  background-color: #5F9EA0;
+  border-radius: 30px;
+  font-size: 34px;
+  padding: 15px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.special_button {
+  padding: 8px;
+}

@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 import React from "react";
 import "./App.css";
 // STEP 4 - import the button and display components
@@ -5,6 +7,10 @@ import "./App.css";
 
 // Logo has already been provided for you. Do the same for the remaining components
 import Logo from "./components/DisplayComponents/Logo";
+import Display from "./components/DisplayComponents/Display";
+import Numbers from "./components/ButtonComponents/NumberButtons/Numbers";
+import Operators from "./components/ButtonComponents/OperatorButtons/Operators.js";
+import Specials from "./components/ButtonComponents/SpecialButtons/Specials.js";
 
 function App() {
   // STEP 5 - After you get the components displaying using the provided data file, write your state hooks here.
@@ -15,9 +21,23 @@ function App() {
 
   return (
     <div className="container">
+    <div className="logo">
       <Logo />
+      </div>
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
+        <div className="displayDiv">
+          <Display />
+        </div>
+        <div className="specialsDiv">
+        <Specials />
+        </div>
+        <div className="numbersDiv">
+        <Numbers />
+        </div>
+        <div className = "operatorsDiv">
+        <Operators />
+        </div>
       </div>
     </div>
   );
